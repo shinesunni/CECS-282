@@ -9,9 +9,8 @@ Lab assignments given in CSULB's CECS C++ course.
 // Mo/We 5P-7:15P
 // 4/12/16
 
-//Robust include directives
-
-#include "stdafx.h"
+//ROBUST INCLUDE DIRECTIVES
+#include "stdafx.h" 
 #include <time.h>
 #include <iomanip>
 #include <conio.h>
@@ -22,7 +21,7 @@ Lab assignments given in CSULB's CECS C++ course.
 #include <map>
 using namespace std;
 
-//To print out 10000 random integers unsorted then another one sorted.
+//To print out 10000 integers from ranges 1-100, the are two ways to do it.
 void print(vector<int> v)
 {
 	vector<int>::iterator it; int i = 0;
@@ -30,7 +29,19 @@ void print(vector<int> v)
 		cout << setw(4) << *it << ((++i % 15) ? ',' : '\n');
 }
 
-//Create vector
+/*
+void print(vector<int> v)
+{
+	vector<int>::iterator it; 
+	int i = 0;
+	for (it = v.begin(); it!= v.end(); it++)
+	{
+		cout << setw(4) << *it << ((++i % 15) ? ',' : '\n');
+		if (i > 500) break;
+	}
+}
+*/
+//Random generated numbers, including the sum of the array, and average in decimals.
 int main()
 {
 	vector<int>myArray;
@@ -41,9 +52,12 @@ int main()
 		int randNum = rand() % 100 + 1; //+1
 		myArray.push_back(randNum);
 		sum = sum + randNum;
+		//		mode[(myArray[i] % 100) ? myArray[i] : 100]++;
+		//		mode[6] = mode[0] + 1;
+		//		mode[6]++;
+		//   	mode[100]++;
 	}
 
-//improvement is always welcomed. This is one way to print it.
 	print(myArray);
 	cout << endl; //to seperate the array 
 	sort(myArray.begin(), myArray.end());
@@ -55,8 +69,8 @@ int main()
 	cout << "The average is: " << endl;
 	cout << sum / 10000.0 << endl; //debug taking 1/4 value
 	cout << endl;
-//} DEBUG
-//}
+}
 
 //I have also have to include frequency and mode of the array, this code is hidden on purpose.
+
 
