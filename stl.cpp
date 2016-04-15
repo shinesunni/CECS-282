@@ -1,0 +1,62 @@
+/* CECS-282
+Lab assignments given in CSULB's CECS C++ course.
+*/
+
+// Shinesunny Som
+// Class: CECS 282
+// Prog 5 - stl - Standard Library
+// Inst: Steve Gold
+// Mo/We 5P-7:15P
+// 4/12/16
+
+//Robust include directives
+
+#include "stdafx.h"
+#include <time.h>
+#include <iomanip>
+#include <conio.h>
+#include <algorithm>
+#include <iostream>
+#include <vector>
+#include <array>
+#include <map>
+using namespace std;
+
+//To print out 10000 random integers unsorted then another one sorted.
+void print(vector<int> v)
+{
+	vector<int>::iterator it; int i = 0;
+	for (it = v.begin(); i < 500; it++) 
+		cout << setw(4) << *it << ((++i % 15) ? ',' : '\n');
+}
+
+//Create vector
+int main()
+{
+	vector<int>myArray;
+	int sum = 0;
+	int avg = 0;
+	for (int i = 0; i < 10000; i++)
+	{
+		int randNum = rand() % 100 + 1; //+1
+		myArray.push_back(randNum);
+		sum = sum + randNum;
+	}
+
+//improvement is always welcomed. This is one way to print it.
+	print(myArray);
+	cout << endl; //to seperate the array 
+	sort(myArray.begin(), myArray.end());
+	cout << "\nThe sorted array: " << endl;
+	print(myArray);
+	cout << "\nThe sum is " << endl;
+	cout << sum << endl;
+	cout << endl;
+	cout << "The average is: " << endl;
+	cout << sum / 10000.0 << endl; //debug taking 1/4 value
+	cout << endl;
+//} DEBUG
+//}
+
+//I have also have to include frequency and mode of the array, this code is hidden on purpose.
+
