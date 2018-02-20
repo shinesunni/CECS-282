@@ -7,6 +7,8 @@
 
 //improvements always welcome
 //This monstrocity....haha
+//Credits to Ashish Singh for assisting me the main portion of the lab.
+
 #include "stdafx.h" 
 #include "stdlib.h" 
 #include "stdio.h"  
