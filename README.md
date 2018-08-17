@@ -1,4 +1,4 @@
-# CECS-282
+# CECS-282; Ways of Master Gold
 Lab assignments given in CSULB's CECS C++ course.
 
 READ CAREFULLY, especially if you are taking CECS 282 right now:
