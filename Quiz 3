@@ -1,0 +1,57 @@
+/*
+Shinesunny Som
+Class: CECS 282
+Quiz 3 - Passing Parameters
+Inst: Steve Gold
+Tu/Th 7:30P-9:45P
+ 10/8/15
+*/
+
+// Improvements are always welcome.
+// There's probably mistakes but getting general knowledge of pointers, and references and address was the point.
+
+/*
+Prompt: Suppose I have the following C++ code. Use the space on the bottom of this page to write the 'sort3' function.
+Be sure to include the prototype function (function signature) on the top of the page.
+*/
+
+/*Given code*/
+
+#include <iostream>
+using namespace std;
+// enter the prototype (function signature) of sort3 here.
+
+int main()
+{
+    int a,b,c;
+    cout << "Enter 3 numbers and I will sort them";
+    cin >> a >> b >> c >>; // example input: a = 9, b = 3, c = 5;
+    sort3(a, b, c);
+    cout << a << "," << b << "," << c; // example output: 9, 3, 5
+    
+/*My answer*/
+
+sort3(&a&b&c)
+
+void sort3(int&a, int&b, int&c) // important part
+{
+    int temp;
+    if (a > b)
+    {
+    temp = a;
+    a = b;
+    b = temp;
+    }
+    if (a > c)
+    {
+    temp = a;
+    a = c;
+    c = temp;
+    }
+    if (b > c)
+    {
+    temp =b;
+    b = c;
+    c = temp;
+    }
+}
