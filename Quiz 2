@@ -1,0 +1,17 @@
+/*
+Shinesunny Som
+Class: CECS 282
+Quiz 2 - Card Object
+Inst: Steve Gold
+Tu/Th 7:30P-9:45P
+ 9/29/15
+*/
+
+
+/*
+Prompt: Given the card.h file, you need to write:
+1) deck.h, deck.cpp
+2) Write the following methods for the deck class:
+  - constructor
+  - deal
+*/
