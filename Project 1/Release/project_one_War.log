@@ -1,0 +1,20 @@
+﻿Build started 9/29/2015 8:47:43 PM.
+     1>Project "D:\Izuriha Files\CUUREN\CECS_282\project_one_War\project_one_War\project_one_War.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt CardDeck.cpp
+         CardDeck.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Izuriha Files\CUUREN\CECS_282\project_one_War\Release\project_one_War.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Izuriha Files\CUUREN\CECS_282\project_one_War\Release\project_one_War.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Izuriha Files\CUUREN\CECS_282\project_one_War\Release\project_one_War.lib" /MACHINE:X86 /SAFESEH Release\Card.obj
+         Release\CardDeck.obj
+         Release\war_main.obj
+         Generating code
+         0 of 117 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         project_one_War.vcxproj -> D:\Izuriha Files\CUUREN\CECS_282\project_one_War\Release\project_one_War.exe
+     1>Done Building Project "D:\Izuriha Files\CUUREN\CECS_282\project_one_War\project_one_War\project_one_War.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.62
