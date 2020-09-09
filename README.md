@@ -1,5 +1,6 @@
 # CECS-282; 
 Lab assignments given in CSULB's CECS C++ course.
+
 IDE: Visual Studio 2016
 Language: C++
 
