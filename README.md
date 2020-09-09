@@ -1,8 +1,8 @@
 # CECS-282; 
-Lab assignments given in CSULB's CECS C++ course.
+Lab assignments given in CSULB's CECS C++ course;
 
 IDE: Visual Studio 2016
-Language: C++
+Progamming Language: C++
 
 READ CAREFULLY, especially if you are taking CECS 282 right now with ways of Master Gold:
 
